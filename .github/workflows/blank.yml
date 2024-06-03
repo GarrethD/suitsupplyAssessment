@@ -26,4 +26,4 @@ jobs:
 
       - name: Run Postman Tests
         run: |
-          newman run ReqresAPITests.postman_collection.json -e ReqresEnvironment.postman_environment.json -d testData.csv --reporters cli,junit --reporter-junit-export results.xml
+          newman run RegresAPITests.postman_collection.json -e RegressEnvironment.postman_environment.json -d userdata.csv --reporters cli,junit --reporter-junit-export results.xml
