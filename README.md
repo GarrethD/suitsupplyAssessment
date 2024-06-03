@@ -1,5 +1,5 @@
 # suitsupplyAssessment
-Postman automation assessement 
+Postman automation assessment 
 
 
 # Reqres API Postman Tests
