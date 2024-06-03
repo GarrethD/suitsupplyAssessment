@@ -51,7 +51,7 @@ cd reqres-api-tests
  
  ### Run the tests using Newman:
  ```sh
-newman run ReqresAPITests.postman_collection.json -e ReqresEnvironment.postman_environment.json -d testData.csv --reporters cli
+newman run ReqresAPITests.postman_collection.json -e ReqresEnvironment.postman_environment.json -d userdata.csv --reporters cli
   ```
   
  ## Running the Tests in GitHub Actions
