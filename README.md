@@ -108,6 +108,10 @@ git push origin main
 Once you push the changes, GitHub Actions will automatically trigger the workflow to run your Postman tests. You can check the status of the workflow in the "Actions" tab of your GitHub repository.
 
 ### Alternatively
-You can open up the Github Action tab and choose to run the test is this repository manually 
+You can click on and open the actions tab in this repository
+Click on 'Run Postman Tests'
+Run workflow.
+
+
 ## Conclusion
 This setup ensures that your Postman tests are automatically run and validated in a CI pipeline using GitHub Actions, providing continuous integration and delivery for your API tests.
